@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+
+    <main class="dashboard">
+        <div class="dashboard-heading">
+            <div>
+                <p class="small-title">USER MANAGEMENT</p>
+                <h1>User Dashboard</h1>
+                <p>Users saved from the account creation form.</p>
+            </div>
+            <a class="add-user-button" href="signin.html">+ Add User</a>
+        </div>
+
+        <div class="table-card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="user-table-body"></tbody>
+            </table>
+            <p id="empty-message" class="empty-message">No users added yet. Create your first account.</p>
+        </div>
+    </main>
+
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>
