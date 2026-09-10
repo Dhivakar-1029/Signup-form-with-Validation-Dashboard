@@ -6,7 +6,7 @@ A responsive front-end user-management demo. Visitors can create an account, sig
 
 ## Live deployment
 
-**Status:** `https://<your-github-username>.github.io/<repository-name>/`
+**Status:** 'https://dhivakar-1029.github.io/Signup-form-with-Validation-Dashboard/'
 
 ## Features
 
